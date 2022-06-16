@@ -1,0 +1,129 @@
+ul, li, ol{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    list-style: none;
+    text-decoration: none;
+}
+.news {
+    background: var(--block-content);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2px 4px rgb(108 111 115 / 10%);
+    box-shadow: 0 2px 4px rgb(108 111 115 / 10%);
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.news__thumbnail {
+    position: relative;
+}
+.news .news__thumbnail img {
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+.pin-tag {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.news .news__content {
+    padding: 15px 15px 0;
+    /* height: 185px; */
+    overflow: hidden;
+}
+
+.news .news-title {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.news .news-title h2 {
+    font-size: 17px;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+
+
+.news .news__content p {
+    margin: 0;
+}
+
+p {
+    font-size: 15px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 400;
+}
+
+.news .news__meta {
+    overflow: hidden;
+    padding: 5px 15px;
+    border-top: 1px solid #ececec;
+    margin-top: 10px;
+}
+
+/* bottom meta */
+.news__meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .other > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+ }
+ .other > ul > li:first-child {
+    margin-right: 10px;
+ }
+
+ .other > ul > li:nth-child(2) {
+    margin-right: 10px;
+ }
+.rating {
+    display: inline-block;
+    vertical-align: middle;
+}
+.rating ul {
+    padding-bottom: 0;
+}
+.rating ul li {
+    float: left;
+    margin-right: 3px;
+}
+.rating ul li span.fa-star, .rating ul li span.fa-star-half-o, .rating ul li span.fa-star-half-alt {
+    color: #ffc000;
+}
+.fa-star:before {
+    content: "\f005";
+}
+.scolor {
+    color: #E83E8C;
+    margin-right: 3px;
+}
+.mcolor3 {
+    color: #58C9E9;
+    margin-right: 3px;
+}
+.pcolor {
+    color: #0674EC;
+    margin-right: 3px;
+}
+.theloailist a{
+    display: inline-block;
+    margin-right: 10px;
+}
+.theloailist a:hover {
+    color: #007bff;
+}

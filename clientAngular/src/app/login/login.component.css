@@ -1,0 +1,13 @@
+.heading-title {
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    border-radius: 5px;
+}
+p > label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #111;
+}
