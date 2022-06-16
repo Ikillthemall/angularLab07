@@ -27,6 +27,6 @@ export class AuthService {
     localStorage.removeItem('id_token');
     localStorage.removeItem('expires_at');
     localStorage.removeItem('username');
-    console.log('Thoát thành công!')
+    console.log('Thoát thành công!');
   }
 }
